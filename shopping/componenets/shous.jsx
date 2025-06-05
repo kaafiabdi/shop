@@ -1,8 +1,8 @@
-import shous from "../sawiro/download.png"
+import shoes from '/sawiro/sneaker.webp'
 export default function   Shoes(){
     return(
         <>
-       <div className="flex justify-center items-center mt-20 gap-9">
+       <div className="flex justify-center items-center  ">
          <div >
               <p className="text-1xl text-amber-700 capitalize">Deal of this day</p>
               <p className="text-3xl text-amber-800  capitalize font-bold mt-1">white shous beeps</p>
@@ -34,7 +34,7 @@ export default function   Shoes(){
         </div>
 
         <div>
-            <img src={shous} alt="" />
+            <img src={shoes} alt="" width={200} />
         </div>
     </div>
      </>

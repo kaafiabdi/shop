@@ -5,7 +5,7 @@ import img3 from "../sawiro/man-suit-hd-8k-wallpaper-stock-photographic-image_89
 export default function   Topsellers(){
     return(
         <>
-        <div className="flex justify-center items-center mt-20 gap-9 mb-100">
+        <div className="flex justify-center items-center  gap-9 mb-10">
             <div>
                 <p className="text-3xl text-amber-800 capitalize font-bold">top sellers</p>
                 <p className="capitalize text-amber-700 ">our best seller product of the mouth</p>
